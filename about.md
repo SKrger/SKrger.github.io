@@ -4,10 +4,18 @@ title: "About me"
 permalink: /about/
 ---
 
-Welcome to my website!
+I'm a data analyst interested in data engineering and data science.
 
-This page tells visitors a bit about who I am and what I do.
+## Skills & Tech Stack
+
+**Programming**
+- Python
+- SQL
+
+**Areas of interest**
+- 
+
+**Tools**
+- 
 
 ## Background
-
-Write a short introduction here.
