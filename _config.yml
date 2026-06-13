@@ -6,3 +6,5 @@ header_pages:
   - about.md
   - projects.md
   - resume.md
+
+show_excerpts: false
