@@ -1,3 +1,8 @@
 title: My Website
 description: Personal website
 theme: jekyll-theme-minimal
+
+header_pages:
+  - about.md
+  - projects.md
+  - resume.md
