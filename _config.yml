@@ -1,6 +1,6 @@
 title: My Website
 description: Personal website
-theme: jekyll-theme-minimal
+theme: minima
 
 header_pages:
   - about.md
