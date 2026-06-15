@@ -12,10 +12,16 @@ I'm a data analyst interested in data engineering and data science.
 - Python
 - SQL
 
-**Areas of interest**
-- 
-
 **Tools**
-- 
+- Git & GitHub
+- Jupyter Notebooks
+- Tableau
+- Dagster (learning)
+- dbt (learning)
+- dlt (learning)
+
+**Areas of interest**
+- Data engineering
+- Data science and machine learning
 
 ## Background
