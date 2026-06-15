@@ -13,7 +13,7 @@ This site is a small portfolio where I document what I'm building, learning, and
 
 ## Current focus
 
-- ...
+- Building end-to-end data pipelines with Dagster, dbt, and dlt to deepen my understanding of modern data engineering workflows.
 
 ---
 
