@@ -8,4 +8,5 @@ header_pages:
   - posts.md
   - resume.md
 
-show_excerpts: false
+show_excerpts: true
+excerpt_separator: "<!-- more -->"
