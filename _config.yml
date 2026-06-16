@@ -1,6 +1,6 @@
 title: Sally Krüger
 description: ""
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 
 header_pages:
   - about.md
