@@ -1,6 +1,9 @@
 title: Sally Krüger
 description: ""
+
 remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
 
 header_pages:
   - about.md
