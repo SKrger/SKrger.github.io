@@ -4,7 +4,7 @@ description: ""
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
-minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin: "mint"
 
 header_pages:
   - about.md
