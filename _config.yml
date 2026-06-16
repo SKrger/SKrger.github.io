@@ -5,6 +5,7 @@ theme: minima
 header_pages:
   - about.md
   - projects.md
+  - posts.md
   - resume.md
 
 show_excerpts: false
