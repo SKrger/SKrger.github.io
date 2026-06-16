@@ -6,7 +6,7 @@ permalink: /posts/
 
 Some notes and things I'm learning about.
 
-{% raw %}
+
 <ul>
 {% for post in site.posts %}
   <li>
@@ -14,4 +14,4 @@ Some notes and things I'm learning about.
   </li>
 {% endfor %}
 </ul>
-{% endraw %}
+
