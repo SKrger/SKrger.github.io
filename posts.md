@@ -1,5 +1,6 @@
 ---
-layout: page
+
+layout: single
 title: Posts
 permalink: /posts/
 ---
