@@ -9,9 +9,10 @@ Some notes and things I'm learning about.
 
 <ul>
 {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
+    <article>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+  </article>
 {% endfor %}
 </ul>
 
