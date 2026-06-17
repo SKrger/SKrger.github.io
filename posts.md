@@ -20,6 +20,7 @@ Some notes and things I'm learning about.
   <p>{{ post.excerpt }}</p>
 
   <a href="{{ post.url }}">Read more →</a>
+  <br><br><br>
 </article>
 {% endfor %}
 </ul>
