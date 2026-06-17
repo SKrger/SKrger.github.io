@@ -4,7 +4,7 @@ layout: single
 title: "How to build a package in Python"
 ---
 
-What is it about those __init__.py files?
+What is it about those `__init__.py` files?
 <!-- more -->
 
 # Why Does Python Have `__init__.py`?
