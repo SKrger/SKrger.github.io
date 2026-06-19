@@ -16,9 +16,13 @@ I'm a data analyst interested in data engineering and data science.
 - Git & GitHub
 - Jupyter Notebooks
 - Tableau
-- Dagster (learning)
-- dbt (learning)
-- dlt (learning)
+- PyCharm
+
+**Learning**
+- Dagster
+- dbt
+- dltHub
+- Github Copilot
 
 **Areas of interest**
 - Data engineering
