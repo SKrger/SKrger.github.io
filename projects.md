@@ -21,3 +21,10 @@ This page will showcase some projects.
 Exploring the capabilities of Copilot like explaining, writing, planning and develop code in collaboration.
 
 [GitHub →](https://github.com/SKrger/skills-getting-started-with-github-copilot)
+
+
+## Integrate Model Context Protocol with GitHub Copilot
+
+Exploring how to add capabilities to GitHub Copilot with Model Context Protocol (MCP).
+
+[GitHub →](https://github.com/SKrger/skills-integrate-mcp-with-copilot/)
