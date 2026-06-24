@@ -8,9 +8,9 @@ This page will showcase some projects.
 
 # Eurostat Data Pipeline
 
-## End-to-end ETL pipeline using Dagster, dbt, and dlt.
+## End-to-end ETL pipeline using Dagster, dbt and streamlit.
 
-[GitHub (privat repo) →](https://github.com/SKrger/eurozone-data/)
+[GitHub →]([https://github.com/SKrger/eurozone-data/](https://github.com/SKrger/eurostat_data))
 
 ---
 
