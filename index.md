@@ -26,6 +26,8 @@ This site is a small portfolio where I document what I'm building, learning, and
 
 ## Current projects
 
-- **European Economic Data Pipeline (In Progress)**: Building an end-to-end data pipeline for collecting, transforming, and analyzing public statistical data from Eurostat. 
+- **European Economic Data Pipeline (In Progress)**: Building an end-to-end data pipeline for collecting, transforming, and analyzing public statistical data from Eurostat.
+
+For more details see "Projects"
 
 
