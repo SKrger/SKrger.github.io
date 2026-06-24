@@ -4,7 +4,7 @@ title: "About me"
 permalink: /about/
 ---
 
-I'm a data analyst interested in data engineering and data science.
+I'm a data analyst interested in data engineering and data science. 
 
 ## Skills & Tech Stack
 
