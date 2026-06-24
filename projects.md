@@ -10,7 +10,7 @@ This page will showcase some projects.
 
 ## End-to-end ETL pipeline using Dagster, dbt and streamlit.
 
-[GitHub →]([https://github.com/SKrger/eurozone-data/](https://github.com/SKrger/eurostat_data))
+[GitHub →](https://github.com/SKrger/eurostat_data)
 
 ---
 
