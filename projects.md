@@ -12,6 +12,13 @@ This page will showcase some projects.
 
 [GitHub →](https://github.com/SKrger/eurostat_data)
 
+
+# Movie Review Explorer
+
+## End-to-end ETL pipeline using Dagster, dbt and streamlit. 
+
+[GitHub →]
+
 ---
 
 # Smaller Exercise Based Projects
