@@ -28,3 +28,11 @@ Exploring the capabilities of Copilot like explaining, writing, planning and dev
 Exploring how to add capabilities to GitHub Copilot with Model Context Protocol (MCP).
 
 [GitHub →](https://github.com/SKrger/skills-integrate-mcp-with-copilot/)
+
+
+## Accompanying exercises to dbt Fundamentals and othehr dbt courses
+
+Practice project following along to dbt Fundamentals and other courses
+
+[GitHub →](https://github.com/SKrger/dbt-Fundamentals-dbt-Studio-)
+
