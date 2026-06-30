@@ -30,7 +30,7 @@ Exploring how to add capabilities to GitHub Copilot with Model Context Protocol 
 [GitHub →](https://github.com/SKrger/skills-integrate-mcp-with-copilot/)
 
 
-## Accompanying exercises to dbt Fundamentals and othehr dbt courses
+## Accompanying exercises to dbt Fundamentals and other dbt courses
 
 Practice project following along to dbt Fundamentals and other courses
 
