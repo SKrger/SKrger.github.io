@@ -33,6 +33,20 @@ These projects show how I approach a problem from source data to a usable result
 
 <div class="card-grid card-grid--two">
   <article class="project-card">
+    <p class="card-label">AI DATA TOOL · IN PROGRESS</p>
+    <h3>Natural Language to SQL Assistant</h3>
+    <p>A Streamlit assistant that turns plain-language questions into SQL and helps users explore data through a more accessible interface.</p>
+    <p class="tag-list"><span>Python</span><span>Streamlit</span><span>DuckDB</span><span>LLM</span></p>
+    <a class="text-link" href="https://github.com/SKrger/nl-to-sql-assistant">View on GitHub <span aria-hidden="true">→</span></a>
+  </article>
+  <article class="project-card">
+    <p class="card-label">NOSQL DATA PRODUCT · IN DEVELOPMENT</p>
+    <h3>Activity Tracker</h3>
+    <p>A personal activity dashboard for recording time, exploring categories, and learning how to design a practical MongoDB application.</p>
+    <p class="tag-list"><span>Python</span><span>MongoDB</span><span>PyMongo</span><span>Streamlit</span><span>Docker</span></p>
+    <a class="text-link" href="https://github.com/SKrger/activity-tracker-nosql">View on GitHub <span aria-hidden="true">→</span></a>
+  </article>
+  <article class="project-card">
     <p class="card-label">DATA PRODUCT</p>
     <h3>Movie Review Explorer</h3>
     <p>An end-to-end ETL project designed around an interactive Streamlit experience for exploring movie review data.</p>
