@@ -47,6 +47,13 @@ These projects show how I approach a problem from source data to a usable result
     <a class="text-link" href="https://github.com/SKrger/activity-tracker-nosql">View on GitHub <span aria-hidden="true">→</span></a>
   </article>
   <article class="project-card">
+    <p class="card-label">LEARNING PROJECT · JUST STARTED</p>
+    <h3>NYC Taxi with PySpark</h3>
+    <p>An early-stage project using NYC taxi data to learn Apache Spark and build practical experience with PySpark data processing.</p>
+    <p class="tag-list"><span>Python</span><span>PySpark</span><span>Apache Spark</span><span>Data processing</span></p>
+    <a class="text-link" href="https://github.com/SKrger/nyc-taxi-pyspark">View on GitHub <span aria-hidden="true">→</span></a>
+  </article>
+  <article class="project-card">
     <p class="card-label">DATA PRODUCT</p>
     <h3>Movie Review Explorer</h3>
     <p>An end-to-end ETL project designed around an interactive Streamlit experience for exploring movie review data.</p>
