@@ -1,5 +1,18 @@
 title: Sally Krüger
-description: ""
+description: "Data analyst building reliable data products with Python and SQL."
+
+url: "https://skrger.github.io"
+baseurl: ""
+repository: "SKrger/SKrger.github.io"
+
+author:
+  name: "Sally Krüger"
+  bio: "Data analyst focused on Python, SQL, and modern data workflows."
+  location: "Germany"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SKrger"
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
@@ -14,3 +27,5 @@ header_pages:
 
 show_excerpts: true
 excerpt_separator: "<!-- more -->"
+breadcrumbs: false
+search: false

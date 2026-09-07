@@ -5,23 +5,20 @@ title: Posts
 permalink: /posts/
 ---
 
-Some notes and things I'm learning about.
+Some notes and things I'm learning about while building data projects and improving my Python workflow.
 
-
-<ul>
+<div class="card-grid card-grid--two">
 {% for post in site.posts %}
-    <article class="post-card">
-  <h2>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h2>
+ <article class="project-card post-card">
+ <h2>
+   <a href="{{ post.url }}">{{ post.title }}</a>
+ </h2>
 
-  <p class="meta">{{ post.date | date: "%Y-%m-%d" }}</p>
+ <p class="card-label">{{ post.date | date: "%B %Y" }}</p>
 
-  <p>{{ post.excerpt }}</p>
+ <p>{{ post.excerpt }}</p>
 
-  <a href="{{ post.url }}">Read more →</a>
-  <br><br><br>
+ <a class="text-link" href="{{ post.url }}">Read more <span aria-hidden="true">→</span></a>
 </article>
 {% endfor %}
-</ul>
-
+</div>
