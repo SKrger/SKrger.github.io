@@ -5,9 +5,16 @@ permalink: /resume/
 classes: wide
 ---
 
-## Sally Krüger
-
-**Data Analyst · Python · SQL · Data Engineering**
+<div class="resume-intro">
+  <div>
+    <p class="eyebrow">PROFILE</p>
+    <h1>Sally Krüger</h1>
+    <p><strong>Data Analyst · Python · SQL · Data Engineering</strong></p>
+  </div>
+  <figure class="resume-intro__portrait">
+    <img src="{{ '/assets/images/sally-portrait-blue.jpg' | relative_url }}" alt="Sally Krüger smiling in a blue blazer">
+  </figure>
+</div>
 
 I build practical, documented data workflows and turn complex information into something people can use. I’m currently deepening my skills in orchestration, transformation, and data products.
 
@@ -36,4 +43,4 @@ I write short notes about the tools and practices I’m learning, including Pyth
 
 ## Contact
 
-The best way to see what I’m building is through [GitHub](https://github.com/SKrger). I’m open to conversations about data analyst and data-focused engineering opportunities.
+The best way to get in touch is through [LinkedIn](https://www.linkedin.com/in/sally-krger/). You can also see what I’m building on [GitHub](https://github.com/SKrger).

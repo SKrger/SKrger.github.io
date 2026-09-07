@@ -13,6 +13,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SKrger"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sally-krger/"
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
@@ -29,3 +32,11 @@ show_excerpts: true
 excerpt_separator: "<!-- more -->"
 breadcrumbs: false
 search: false
+author_profile: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: false
