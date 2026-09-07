@@ -22,8 +22,22 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
+.sidebar {
+  display: none;
+}
+
+.page {
+  float: none;
+  width: 100%;
+}
+
+.page__inner-wrap {
+  max-width: none;
+}
+
 .page__content {
   font-size: 1.02em;
+  width: 100%;
 }
 
 .page__content h1,
@@ -63,7 +77,38 @@ body {
 }
 
 .hero {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1.35fr) minmax(220px, 0.65fr);
   padding: 5rem 0 4.5rem;
+}
+
+.hero__portrait,
+.profile-intro__portrait,
+.resume-intro__portrait {
+  margin: 0;
+  overflow: hidden;
+}
+
+.hero__portrait {
+  aspect-ratio: 4 / 5;
+  border-radius: 1rem 1rem 5rem 1rem;
+  justify-self: end;
+  max-width: 340px;
+  width: 100%;
+}
+
+.hero__portrait img,
+.profile-intro__portrait img,
+.resume-intro__portrait img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero__portrait img {
+  object-position: 53% center;
 }
 
 .hero__lede {
@@ -111,6 +156,31 @@ body {
   gap: 2rem;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
   padding: 3.5rem 0;
+}
+
+.profile-intro,
+.resume-intro {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  margin-bottom: 3.5rem;
+}
+
+.profile-intro h1,
+.resume-intro h1 {
+  margin-top: 0;
+}
+
+.profile-intro__portrait,
+.resume-intro__portrait {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.profile-intro__portrait img,
+.resume-intro__portrait img {
+  object-position: 52% 24%;
 }
 
 .intro-grid h2,
@@ -237,9 +307,22 @@ body {
   .focus-panel,
   .contact-panel,
   .project-feature,
+  .hero,
+  .profile-intro,
+  .resume-intro,
   .card-grid--three,
   .card-grid--two {
     grid-template-columns: 1fr;
+  }
+
+  .hero__portrait {
+    justify-self: start;
+    max-width: 280px;
+  }
+
+  .profile-intro__portrait,
+  .resume-intro__portrait {
+    max-width: 220px;
   }
 
   .focus-panel .text-link,

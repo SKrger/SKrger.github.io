@@ -5,13 +5,18 @@ classes: wide
 ---
 
 <section class="hero">
-  <p class="eyebrow">DATA ANALYST · PYTHON · SQL</p>
-  <h1>Turning messy data into useful decisions.</h1>
-  <p class="hero__lede">I'm Sally, a data analyst building practical data products and learning in public as I grow into data engineering and data science.</p>
-  <div class="hero__actions">
-    <a class="button button--primary" href="{{ '/projects/' | relative_url }}">Explore my projects</a>
-    <a class="button button--secondary" href="{{ '/about/' | relative_url }}">More about me</a>
+  <div class="hero__content">
+    <p class="eyebrow">DATA ANALYST · PYTHON · SQL</p>
+    <h1>Turning messy data into useful decisions.</h1>
+    <p class="hero__lede">I'm Sally, a data analyst building practical data products and learning in public as I grow into data engineering and data science.</p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/projects/' | relative_url }}">Explore my projects</a>
+      <a class="button button--secondary" href="{{ '/about/' | relative_url }}">More about me</a>
+    </div>
   </div>
+  <figure class="hero__portrait">
+    <img src="{{ '/assets/images/sally-portrait-dark.jpg' | relative_url }}" alt="Sally Krüger smiling in a dark blazer">
+  </figure>
 </section>
 
 <section class="intro-grid">
@@ -62,6 +67,5 @@ classes: wide
   <p class="eyebrow">LET'S CONNECT</p>
   <h2>Looking for a team where thoughtful data work has real impact.</h2>
   <p>If you're hiring for an analytical, technically curious teammate, I'd be glad to connect.</p>
-  <a class="button button--primary" href="https://github.com/SKrger">Find me on GitHub</a>
+  <a class="button button--primary" href="https://www.linkedin.com/in/sally-krger/">Connect on LinkedIn</a>
 </section>
-
