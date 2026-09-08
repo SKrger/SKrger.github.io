@@ -52,7 +52,7 @@ I'm also interested in the technical side of this work, particularly Analytics E
 | Area | Skills |
 |---|---|
 | **Data Modeling** | Star & snowflake schemas, fact & dimension tables, slowly changing dimensions (SCD), KPI definition |
-| **Statistics** | Statistical analysis, hypothesis testing, regression, A/B testing, time-series analysis, forecasting, segmentation |
+| **Statistics** | Statistical analysis, hypothesis testing, regression, A/B testing, time-series analysis, forecasting, segmentation|
 | **Business & Stakeholder Skills** | Requirements gathering, translating business questions into analytical solutions, KPI development, stakeholder communication, data-driven decision making |
 
 ## What I'm looking for
