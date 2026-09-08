@@ -8,14 +8,14 @@ classes: wide
 <div class="profile-intro">
   <div>
     <p class="eyebrow">ABOUT ME</p>
-    <h1>A data analyst who likes to understand the whole system</h1>
+    <h1>Always learning, always looking for the next problem to solve</h1>
   </div>
   <figure class="profile-intro__portrait">
     <img src="{{ '/assets/images/sally-portrait-blue.jpg' | relative_url }}" alt="Sally Krüger smiling in a blue blazer">
   </figure>
 </div>
 
-I’m Sally Krüger, a Data Analyst in a subscription-based business, where I use data to understand how customers interact with our products and subscriptions. My work covers conversion, retention, and customer lifetime value, as well as using data for targeting and personalization.
+I’m Sally, Data Analyst in a subscription-based business, where I use data to understand how customers interact with our products and subscriptions. My work covers conversion, retention, and customer lifetime value, as well as using data for targeting and personalization.
 
 What interests me most about analytics is the work that happens once a business question has been clarified: determining what data is needed to answer it, and how that data should be structured so the business can use it to make a decision. This step is rarely straightforward — it involves choices about scope, granularity, and definitions that determine whether the resulting analysis is actually usable. I enjoy working through these decisions to turn raw data into an analysis that the business can act on with confidence.
 
