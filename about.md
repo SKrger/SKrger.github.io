@@ -49,6 +49,7 @@ I'm also interested in the technical side of this work, particularly Analytics E
 | **AI Tools** |  GitHub Copilot |
 
 ## Skills 
+
 | Area | Skills |
 |---|---|
 | **Data Modeling** | Star & snowflake schemas, fact & dimension tables, slowly changing dimensions (SCD), KPI definition |
