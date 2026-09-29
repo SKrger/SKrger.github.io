@@ -247,10 +247,12 @@ body {
 .tag-list a,
 .tag-list span {
   background: #edf4f2;
+  border: 1px solid #d7eae1;
   border-radius: 999px;
   color: var(--accent-dark);
   display: inline-block;
   font-size: 0.78rem;
+  line-height: 1.4;
   padding: 0.28rem 0.6rem;
   text-decoration: none;
   transition: background 160ms ease, transform 160ms ease;
