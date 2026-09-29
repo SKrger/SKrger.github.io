@@ -1,0 +1,106 @@
+featured:
+  card_label: "IN PROGRESS · DATA ENGINEERING"
+  title: "European Economic Data Pipeline"
+  summary: "A complete pipeline for collecting, transforming, and analyzing public statistical data from Eurostat."
+  description: "The project is a practical way to learn modern data engineering patterns: ingesting external data with dlt, orchestrating jobs with Dagster, modeling with dbt, and presenting results in Streamlit."
+  tags:
+    - Python
+    - Eurostat
+    - dlt
+    - Dagster
+    - dbt
+    - Streamlit
+  cta:
+    label: "View on GitHub"
+    url: "https://github.com/SKrger/eurostat_data"
+  workflow:
+    - Collect public economic indicators
+    - Transform and validate the data
+    - Orchestrate repeatable runs
+    - Make the results explorable
+
+homepage:
+  - card_label: "FEATURED PROJECT"
+    title: "European Economic Data Pipeline"
+    summary: "An end-to-end workflow for collecting, transforming, and exploring public statistical data from Eurostat."
+    tags:
+      - Python
+      - Dagster
+      - dbt
+    link:
+      label: "Read the project story"
+      url: "/projects/"
+  - card_label: "EXPLORATION"
+    title: "Movie Review Explorer"
+    summary: "A second data product exploring how an ETL workflow can support an interactive Streamlit experience."
+    tags:
+      - SQL
+      - Streamlit
+      - Data modeling
+    link:
+      label: "View all projects"
+      url: "/projects/"
+  - card_label: "WRITING"
+    title: "Notes from the build"
+    summary: "Short, practical notes on Python packaging, dependency management, and developer tooling."
+    tags:
+      - Python
+      - Tooling
+    link:
+      label: "Read the notes"
+      url: "/posts/"
+
+more:
+  - card_label: "AI DATA TOOL · IN PROGRESS"
+    title: "Natural Language to SQL Assistant"
+    summary: "A Streamlit assistant that turns plain-language questions into SQL and helps users explore data through a more accessible interface."
+    tags:
+      - Python
+      - Streamlit
+      - DuckDB
+      - LLM
+    link:
+      label: "View on GitHub"
+      url: "https://github.com/SKrger/nl-to-sql-assistant"
+  - card_label: "NOSQL DATA PRODUCT · IN DEVELOPMENT"
+    title: "Activity Tracker"
+    summary: "A personal activity dashboard for recording time, exploring categories, and learning how to design a practical MongoDB application."
+    tags:
+      - Python
+      - MongoDB
+      - PyMongo
+      - Streamlit
+      - Docker
+    link:
+      label: "View on GitHub"
+      url: "https://github.com/SKrger/activity-tracker-nosql"
+  - card_label: "LEARNING PROJECT · JUST STARTED"
+    title: "NYC Taxi with PySpark"
+    summary: "An early-stage project using NYC taxi data to learn Apache Spark and build practical experience with PySpark data processing."
+    tags:
+      - Python
+      - PySpark
+      - Apache Spark
+      - Data processing
+    link:
+      label: "View on GitHub"
+      url: "https://github.com/SKrger/nyc-taxi-pyspark"
+  - card_label: "DATA PRODUCT"
+    title: "Movie Review Explorer"
+    summary: "An end-to-end ETL project designed around an interactive Streamlit experience for exploring movie review data."
+    tags:
+      - Python
+      - Dagster
+      - dbt
+      - Streamlit
+    status: "Project details coming soon"
+  - card_label: "PRACTICE PROJECT"
+    title: "dbt Fundamentals exercises"
+    summary: "Practice work following dbt Fundamentals and related courses, with a focus on transformation and analytical modeling."
+    tags:
+      - dbt
+      - SQL
+      - Data modeling
+    link:
+      label: "View on GitHub"
+      url: "https://github.com/SKrger/dbt-Fundamentals-dbt-Studio-"

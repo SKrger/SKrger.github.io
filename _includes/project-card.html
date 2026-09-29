@@ -1,0 +1,34 @@
+<article class="project-card" data-project-card="true"{% if include.reveal %} data-reveal{% endif %}>
+  {% if include.project.card_label %}
+    <p class="card-label">{{ include.project.card_label }}</p>
+  {% endif %}
+
+  {% if include.project.title %}
+    <h3>{{ include.project.title }}</h3>
+  {% endif %}
+
+  {% if include.project.summary %}
+    <p>{{ include.project.summary }}</p>
+  {% endif %}
+
+  {% if include.project.tags %}
+    <p class="tag-list">
+      {% for tag in include.project.tags %}
+        <a href="{{ '/projects/' | relative_url }}?tag={{ tag | url_encode }}" data-project-tag="{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  {% if include.project.link %}
+    {% assign project_link = include.project.link.url %}
+    {% if project_link contains 'http' %}
+      <a class="text-link" href="{{ project_link }}">{{ include.project.link.label }} <span aria-hidden="true">→</span></a>
+    {% else %}
+      <a class="text-link" href="{{ project_link | relative_url }}">{{ include.project.link.label }} <span aria-hidden="true">→</span></a>
+    {% endif %}
+  {% endif %}
+
+  {% if include.project.status %}
+    <span class="project-status">{{ include.project.status }}</span>
+  {% endif %}
+</article>
