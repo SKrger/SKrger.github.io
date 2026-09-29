@@ -7,15 +7,20 @@ classes: wide
 
 These projects show how I approach a problem from source data to a usable result. They are deliberately end-to-end: I want to understand not only the analysis, but also the workflow that makes it repeatable.
 
+<p class="project-filter-summary" hidden>
+  Showing only projects tagged “<strong data-project-filter-value></strong>”.
+  <a href="{{ '/projects/' | relative_url }}" data-clear-tag-filter>Clear filter</a>
+</p>
+
 ## Featured project
 
-<article class="project-feature" data-reveal>
+<article class="project-feature">
   <div>
     <p class="eyebrow">IN PROGRESS · DATA ENGINEERING</p>
     <h2>European Economic Data Pipeline</h2>
     <p class="project-feature__summary">A complete pipeline for collecting, transforming, and analyzing public statistical data from Eurostat.</p>
     <p>The project is a practical way to learn modern data engineering patterns: ingesting external data with dlt, orchestrating jobs with Dagster, modeling with dbt, and presenting results in Streamlit.</p>
-    <p class="tag-list"><span>Python</span><span>Eurostat</span><span>dlt</span><span>Dagster</span><span>dbt</span><span>Streamlit</span></p>
+    <p class="tag-list"><a href="{{ '/projects/?tag=Python' | relative_url }}">Python</a><a href="{{ '/projects/?tag=Eurostat' | relative_url }}">Eurostat</a><a href="{{ '/projects/?tag=dlt' | relative_url }}">dlt</a><a href="{{ '/projects/?tag=Dagster' | relative_url }}">Dagster</a><a href="{{ '/projects/?tag=dbt' | relative_url }}">dbt</a><a href="{{ '/projects/?tag=Streamlit' | relative_url }}">Streamlit</a></p>
     <a class="button button--primary" href="https://github.com/SKrger/eurostat_data">View on GitHub</a>
   </div>
   <div class="project-feature__details">
@@ -32,39 +37,39 @@ These projects show how I approach a problem from source data to a usable result
 ## More project work
 
 <div class="card-grid card-grid--two">
-  <article class="project-card" data-reveal>
+  <article class="project-card">
     <p class="card-label">AI DATA TOOL · IN PROGRESS</p>
     <h3>Natural Language to SQL Assistant</h3>
     <p>A Streamlit assistant that turns plain-language questions into SQL and helps users explore data through a more accessible interface.</p>
-    <p class="tag-list"><span>Python</span><span>Streamlit</span><span>DuckDB</span><span>LLM</span></p>
+    <p class="tag-list"><a href="{{ '/projects/?tag=Python' | relative_url }}">Python</a><a href="{{ '/projects/?tag=Streamlit' | relative_url }}">Streamlit</a><a href="{{ '/projects/?tag=DuckDB' | relative_url }}">DuckDB</a><a href="{{ '/projects/?tag=LLM' | relative_url }}">LLM</a></p>
     <a class="text-link" href="https://github.com/SKrger/nl-to-sql-assistant">View on GitHub <span aria-hidden="true">→</span></a>
   </article>
-  <article class="project-card" data-reveal>
+  <article class="project-card">
     <p class="card-label">NOSQL DATA PRODUCT · IN DEVELOPMENT</p>
     <h3>Activity Tracker</h3>
     <p>A personal activity dashboard for recording time, exploring categories, and learning how to design a practical MongoDB application.</p>
-    <p class="tag-list"><span>Python</span><span>MongoDB</span><span>PyMongo</span><span>Streamlit</span><span>Docker</span></p>
+    <p class="tag-list"><a href="{{ '/projects/?tag=Python' | relative_url }}">Python</a><a href="{{ '/projects/?tag=MongoDB' | relative_url }}">MongoDB</a><a href="{{ '/projects/?tag=PyMongo' | relative_url }}">PyMongo</a><a href="{{ '/projects/?tag=Streamlit' | relative_url }}">Streamlit</a><a href="{{ '/projects/?tag=Docker' | relative_url }}">Docker</a></p>
     <a class="text-link" href="https://github.com/SKrger/activity-tracker-nosql">View on GitHub <span aria-hidden="true">→</span></a>
   </article>
-  <article class="project-card" data-reveal>
+  <article class="project-card">
     <p class="card-label">LEARNING PROJECT · JUST STARTED</p>
     <h3>NYC Taxi with PySpark</h3>
     <p>An early-stage project using NYC taxi data to learn Apache Spark and build practical experience with PySpark data processing.</p>
-    <p class="tag-list"><span>Python</span><span>PySpark</span><span>Apache Spark</span><span>Data processing</span></p>
+    <p class="tag-list"><a href="{{ '/projects/?tag=Python' | relative_url }}">Python</a><a href="{{ '/projects/?tag=PySpark' | relative_url }}">PySpark</a><a href="{{ '/projects/?tag=Apache Spark' | replace: ' ', '%20' | relative_url }}">Apache Spark</a><a href="{{ '/projects/?tag=Data processing' | replace: ' ', '%20' | relative_url }}">Data processing</a></p>
     <a class="text-link" href="https://github.com/SKrger/nyc-taxi-pyspark">View on GitHub <span aria-hidden="true">→</span></a>
   </article>
-  <article class="project-card" data-reveal>
+  <article class="project-card">
     <p class="card-label">DATA PRODUCT</p>
     <h3>Movie Review Explorer</h3>
     <p>An end-to-end ETL project designed around an interactive Streamlit experience for exploring movie review data.</p>
-    <p class="tag-list"><span>Dagster</span><span>dbt</span><span>Streamlit</span></p>
+    <p class="tag-list"><a href="{{ '/projects/?tag=Dagster' | relative_url }}">Dagster</a><a href="{{ '/projects/?tag=dbt' | relative_url }}">dbt</a><a href="{{ '/projects/?tag=Streamlit' | relative_url }}">Streamlit</a></p>
     <span class="project-status">Project details coming soon</span>
   </article>
-  <article class="project-card" data-reveal>
+  <article class="project-card">
     <p class="card-label">PRACTICE PROJECT</p>
     <h3>dbt Fundamentals exercises</h3>
     <p>Practice work following dbt Fundamentals and related courses, with a focus on transformation and analytical modeling.</p>
-    <p class="tag-list"><span>dbt</span><span>SQL</span><span>Data modeling</span></p>
+    <p class="tag-list"><a href="{{ '/projects/?tag=dbt' | relative_url }}">dbt</a><a href="{{ '/projects/?tag=SQL' | relative_url }}">SQL</a><a href="{{ '/projects/?tag=Data modeling' | replace: ' ', '%20' | relative_url }}">Data modeling</a></p>
     <a class="text-link" href="https://github.com/SKrger/dbt-Fundamentals-dbt-Studio-">View on GitHub <span aria-hidden="true">→</span></a>
   </article>
 </div>
@@ -77,3 +82,52 @@ These smaller projects helped me learn how to work effectively with modern devel
 | --- | --- |
 | [Getting Started with GitHub Copilot](https://github.com/SKrger/skills-getting-started-with-github-copilot) | Explaining, planning, and developing code collaboratively with Copilot |
 | [Integrate MCP with GitHub Copilot](https://github.com/SKrger/skills-integrate-mcp-with-copilot) | Extending an AI workflow with Model Context Protocol |
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const params = new URLSearchParams(window.location.search);
+    const activeTag = decodeURIComponent(params.get('tag') || '').trim();
+    const cards = Array.from(document.querySelectorAll('.project-card, .project-feature'));
+    const filterSummary = document.querySelector('.project-filter-summary');
+    const filterValue = document.querySelector('[data-project-filter-value]');
+    const clearLink = document.querySelector('[data-clear-tag-filter]');
+    const emptyState = document.createElement('p');
+    emptyState.className = 'project-filter-empty';
+    emptyState.textContent = 'No projects match this tag yet.';
+    emptyState.hidden = true;
+    document.querySelector('.page__content').appendChild(emptyState);
+
+    if (!activeTag) {
+      if (clearLink) clearLink.parentElement.hidden = true;
+      return;
+    }
+
+    let visible = 0;
+
+    cards.forEach(function (card) {
+      const tags = Array.from(card.querySelectorAll('.tag-list a')).map(function (tag) {
+        return tag.textContent.trim().toLowerCase();
+      });
+
+      const match = tags.includes(activeTag.toLowerCase());
+      if (!match) {
+        card.hidden = true;
+        return;
+      }
+
+      visible += 1;
+      card.hidden = false;
+    });
+
+    if (filterSummary) {
+      filterSummary.hidden = false;
+      if (filterValue) filterValue.textContent = activeTag;
+    }
+
+    if (clearLink) clearLink.hidden = false;
+
+    if (visible === 0) {
+      emptyState.hidden = false;
+    }
+  });
+</script>

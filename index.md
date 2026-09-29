@@ -4,8 +4,8 @@ title: ""
 classes: wide
 ---
 
-<section class="hero" data-reveal>
-  <div class="hero__content" data-reveal>
+<section class="hero">
+  <div class="hero__content">
     <p class="eyebrow">DATA ANALYST · PYTHON · SQL</p>
     <h1>Turning messy data into useful decisions.</h1>
     <p class="hero__lede">I'm Sally, a data analyst building practical data products and learning in public as I grow into data engineering and data science.</p>
@@ -14,12 +14,12 @@ classes: wide
       <a class="button button--secondary" href="{{ '/about/' | relative_url }}">More about me</a>
     </div>
   </div>
-  <figure class="hero__portrait" data-reveal>
+  <figure class="hero__portrait">
     <img src="{{ '/assets/images/sally-portrait-dark.jpg' | relative_url }}" alt="Sally Krüger smiling in a dark blazer">
   </figure>
 </section>
 
-<section class="intro-grid" data-reveal>
+<section class="intro-grid">
   <div>
     <p class="eyebrow">HOW I WORK</p>
     <h2>Curious, structured, and hands-on.</h2>
@@ -27,7 +27,7 @@ classes: wide
   <p>I enjoy understanding the question behind the data, building a dependable path from source to insight, and documenting the decisions along the way. My portfolio combines analytical thinking with the engineering practices that make data work easier to trust and maintain.</p>
 </section>
 
-<section class="focus-panel" data-reveal>
+<section class="focus-panel">
   <div>
     <p class="eyebrow">CURRENT FOCUS</p>
     <h2>Building an end-to-end Eurostat data pipeline</h2>
@@ -39,31 +39,31 @@ classes: wide
 <section class="home-section">
   <p class="eyebrow">SELECTED WORK</p>
   <div class="card-grid card-grid--three">
-    <article class="project-card" data-reveal>
+    <article class="project-card">
       <p class="card-label">FEATURED PROJECT</p>
       <h3>European Economic Data Pipeline</h3>
       <p>An end-to-end workflow for collecting, transforming, and exploring public statistical data from Eurostat.</p>
-      <p class="tag-list"><span>Python</span><span>Dagster</span><span>dbt</span></p>
+      <p class="tag-list"><a href="{{ '/projects/?tag=Python' | relative_url }}">Python</a><a href="{{ '/projects/?tag=Dagster' | relative_url }}">Dagster</a><a href="{{ '/projects/?tag=dbt' | relative_url }}">dbt</a></p>
       <a class="text-link" href="{{ '/projects/' | relative_url }}">Read the project story <span aria-hidden="true">→</span></a>
     </article>
-    <article class="project-card" data-reveal>
+    <article class="project-card">
       <p class="card-label">EXPLORATION</p>
       <h3>Movie Review Explorer</h3>
       <p>A second data product exploring how an ETL workflow can support an interactive Streamlit experience.</p>
-      <p class="tag-list"><span>SQL</span><span>Streamlit</span><span>Data modeling</span></p>
+      <p class="tag-list"><a href="{{ '/projects/?tag=SQL' | relative_url }}">SQL</a><a href="{{ '/projects/?tag=Streamlit' | relative_url }}">Streamlit</a><a href="{{ '/projects/?tag=Data modeling' | replace: ' ', '%20' | relative_url }}">Data modeling</a></p>
       <a class="text-link" href="{{ '/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
     </article>
-    <article class="project-card" data-reveal>
+    <article class="project-card">
       <p class="card-label">WRITING</p>
       <h3>Notes from the build</h3>
       <p>Short, practical notes on Python packaging, dependency management, and developer tooling.</p>
-      <p class="tag-list"><span>Python</span><span>Tooling</span></p>
+      <p class="tag-list"><a href="{{ '/projects/?tag=Python' | relative_url }}">Python</a><a href="{{ '/projects/?tag=Tooling' | relative_url }}">Tooling</a></p>
       <a class="text-link" href="{{ '/posts/' | relative_url }}">Read the notes <span aria-hidden="true">→</span></a>
     </article>
   </div>
 </section>
 
-<section class="contact-panel" data-reveal>
+<section class="contact-panel">
   <p class="eyebrow">LET'S CONNECT</p>
   <h2>Looking for a team where thoughtful data work has real impact.</h2>
   <p>If you're hiring for an analytical, technically curious teammate, I'd be glad to connect.</p>
