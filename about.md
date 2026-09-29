@@ -5,12 +5,12 @@ permalink: /about/
 classes: wide
 ---
 
-<div class="profile-intro">
+<div class="profile-intro" data-reveal>
   <div>
     <p class="eyebrow">ABOUT ME</p>
     <h1>Always learning, always looking for the next problem to solve</h1>
   </div>
-  <figure class="profile-intro__portrait">
+  <figure class="profile-intro__portrait" data-reveal>
     <img src="{{ '/assets/images/sally-portrait-blue.jpg' | relative_url }}" alt="Sally Krüger smiling in a blue blazer">
   </figure>
 </div>
@@ -24,15 +24,15 @@ I'm also interested in the technical side of this work, particularly Analytics E
 ## What I bring
 
 <div class="card-grid card-grid--three">
-  <article class="value-card">
+  <article class="value-card" data-reveal>
     <h3>Analytical thinking</h3>
     <p>I start with the question and the decision it should support, not just the available data.</p>
   </article>
-  <article class="value-card">
+  <article class="value-card" data-reveal>
     <h3>Engineering mindset</h3>
     <p>I care about maintainable pipelines, explicit transformations, and workflows that can be run again.</p>
   </article>
-  <article class="value-card">
+  <article class="value-card" data-reveal>
     <h3>Clear communication</h3>
     <p>I am used to working in cross-functional teams and communicating with technical and business stakeholders.</p>
   </article>
