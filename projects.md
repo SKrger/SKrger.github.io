@@ -62,7 +62,7 @@ These projects show how I approach a problem from source data to a usable result
     <p class="card-label">DATA PRODUCT</p>
     <h3>Movie Review Explorer</h3>
     <p>An end-to-end ETL project designed around an interactive Streamlit experience for exploring movie review data.</p>
-    <p class="tag-list"><a href="{{ '/projects/' | relative_url }}?tag={{ 'Dagster' | url_encode }}" data-project-tag="Dagster">Dagster</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'dbt' | url_encode }}" data-project-tag="dbt">dbt</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Streamlit' | url_encode }}" data-project-tag="Streamlit">Streamlit</a></p>
+    <p class="tag-list"><a href="{{ '/projects/' | relative_url }}?tag={{ 'Python' | url_encode }}" data-project-tag="Python">Python</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Dagster' | url_encode }}" data-project-tag="Dagster">Dagster</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'dbt' | url_encode }}" data-project-tag="dbt">dbt</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Streamlit' | url_encode }}" data-project-tag="Streamlit">Streamlit</a></p>
     <span class="project-status">Project details coming soon</span>
   </article>
   <article class="project-card" data-project-card="true">
