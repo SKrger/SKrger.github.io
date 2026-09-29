@@ -282,16 +282,46 @@ body {
   gap: 0.4rem;
 }
 
-.tag-list .project-tag {
+.tag-list a,
+.tag-list span {
   background: #edf4f2;
-  border: 0;
+  border: 1px solid #d7eae1;
   border-radius: 999px;
   color: var(--accent-dark);
-  cursor: pointer;
-  font-family: inherit;
+  display: inline-block;
   font-size: 0.78rem;
-  line-height: inherit;
+  line-height: 1.4;
   padding: 0.28rem 0.6rem;
+  text-decoration: none;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.tag-list a:hover,
+.tag-list a:focus-visible {
+  background: #dfeee9;
+  transform: translateY(-1px);
+}
+
+.tag-list a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.project-filter-summary,
+.project-filter-empty {
+  background: #eef5f2;
+  border: 1px solid #d8e9e3;
+  border-radius: 0.75rem;
+  color: var(--accent-dark);
+  margin: 0 0 1.5rem;
+  padding: 0.8rem 1rem;
+}
+
+.project-filter-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
 }
 
 .tag-list .project-tag:hover,

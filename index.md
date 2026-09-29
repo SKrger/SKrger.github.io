@@ -43,21 +43,21 @@ classes: wide
       <p class="card-label">FEATURED PROJECT</p>
       <h3>European Economic Data Pipeline</h3>
       <p>An end-to-end workflow for collecting, transforming, and exploring public statistical data from Eurostat.</p>
-      <p class="tag-list"><span>Python</span><span>Dagster</span><span>dbt</span></p>
+      <p class="tag-list"><a href="{{ '/projects/' | relative_url }}?tag={{ 'Python' | url_encode }}">Python</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Dagster' | url_encode }}">Dagster</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'dbt' | url_encode }}">dbt</a></p>
       <a class="text-link" href="{{ '/projects/' | relative_url }}">Read the project story <span aria-hidden="true">→</span></a>
     </article>
     <article class="project-card" data-reveal>
       <p class="card-label">EXPLORATION</p>
       <h3>Movie Review Explorer</h3>
       <p>A second data product exploring how an ETL workflow can support an interactive Streamlit experience.</p>
-      <p class="tag-list"><span>SQL</span><span>Streamlit</span><span>Data modeling</span></p>
+      <p class="tag-list"><a href="{{ '/projects/' | relative_url }}?tag={{ 'SQL' | url_encode }}">SQL</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Streamlit' | url_encode }}">Streamlit</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Data modeling' | url_encode }}">Data modeling</a></p>
       <a class="text-link" href="{{ '/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
     </article>
     <article class="project-card" data-reveal>
       <p class="card-label">WRITING</p>
       <h3>Notes from the build</h3>
       <p>Short, practical notes on Python packaging, dependency management, and developer tooling.</p>
-      <p class="tag-list"><span>Python</span><span>Tooling</span></p>
+      <p class="tag-list"><a href="{{ '/projects/' | relative_url }}?tag={{ 'Python' | url_encode }}">Python</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Tooling' | url_encode }}">Tooling</a></p>
       <a class="text-link" href="{{ '/posts/' | relative_url }}">Read the notes <span aria-hidden="true">→</span></a>
     </article>
   </div>
