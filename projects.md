@@ -34,7 +34,7 @@ These projects show how I approach a problem from source data to a usable result
   </div>
 </article>
 
-## More project work
+<h2 id="more-projects-heading">More project work</h2>
 
 <div class="card-grid card-grid--two">
   <article class="project-card" data-project-card="true">

@@ -4,8 +4,8 @@ title: ""
 classes: wide
 ---
 
-<section class="hero">
-  <div class="hero__content">
+<section class="hero" data-reveal>
+  <div class="hero__content" data-reveal>
     <p class="eyebrow">DATA ANALYST · PYTHON · SQL</p>
     <h1>Turning messy data into useful decisions.</h1>
     <p class="hero__lede">I'm Sally, a data analyst building practical data products and learning in public as I grow into data engineering and data science.</p>
@@ -14,12 +14,12 @@ classes: wide
       <a class="button button--secondary" href="{{ '/about/' | relative_url }}">More about me</a>
     </div>
   </div>
-  <figure class="hero__portrait">
+  <figure class="hero__portrait" data-reveal>
     <img src="{{ '/assets/images/sally-portrait-dark.jpg' | relative_url }}" alt="Sally Krüger smiling in a dark blazer">
   </figure>
 </section>
 
-<section class="intro-grid">
+<section class="intro-grid" data-reveal>
   <div>
     <p class="eyebrow">HOW I WORK</p>
     <h2>Curious, structured, and hands-on.</h2>
@@ -27,7 +27,7 @@ classes: wide
   <p>I enjoy understanding the question behind the data, building a dependable path from source to insight, and documenting the decisions along the way. My portfolio combines analytical thinking with the engineering practices that make data work easier to trust and maintain.</p>
 </section>
 
-<section class="focus-panel">
+<section class="focus-panel" data-reveal>
   <div>
     <p class="eyebrow">CURRENT FOCUS</p>
     <h2>Building an end-to-end Eurostat data pipeline</h2>
@@ -39,21 +39,21 @@ classes: wide
 <section class="home-section">
   <p class="eyebrow">SELECTED WORK</p>
   <div class="card-grid card-grid--three">
-    <article class="project-card">
+    <article class="project-card" data-reveal>
       <p class="card-label">FEATURED PROJECT</p>
       <h3>European Economic Data Pipeline</h3>
       <p>An end-to-end workflow for collecting, transforming, and exploring public statistical data from Eurostat.</p>
       <p class="tag-list"><a href="{{ '/projects/' | relative_url }}?tag={{ 'Python' | url_encode }}">Python</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Dagster' | url_encode }}">Dagster</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'dbt' | url_encode }}">dbt</a></p>
       <a class="text-link" href="{{ '/projects/' | relative_url }}">Read the project story <span aria-hidden="true">→</span></a>
     </article>
-    <article class="project-card">
+    <article class="project-card" data-reveal>
       <p class="card-label">EXPLORATION</p>
       <h3>Movie Review Explorer</h3>
       <p>A second data product exploring how an ETL workflow can support an interactive Streamlit experience.</p>
       <p class="tag-list"><a href="{{ '/projects/' | relative_url }}?tag={{ 'SQL' | url_encode }}">SQL</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Streamlit' | url_encode }}">Streamlit</a><a href="{{ '/projects/' | relative_url }}?tag={{ 'Data modeling' | url_encode }}">Data modeling</a></p>
       <a class="text-link" href="{{ '/projects/' | relative_url }}">View all projects <span aria-hidden="true">→</span></a>
     </article>
-    <article class="project-card">
+    <article class="project-card" data-reveal>
       <p class="card-label">WRITING</p>
       <h3>Notes from the build</h3>
       <p>Short, practical notes on Python packaging, dependency management, and developer tooling.</p>
@@ -63,7 +63,7 @@ classes: wide
   </div>
 </section>
 
-<section class="contact-panel">
+<section class="contact-panel" data-reveal>
   <p class="eyebrow">LET'S CONNECT</p>
   <h2>Looking for a team where thoughtful data work has real impact.</h2>
   <p>If you're hiring for an analytical, technically curious teammate, I'd be glad to connect.</p>
